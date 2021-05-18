@@ -25,6 +25,8 @@ for key in issuers:
     price = elems[6].getText()
     print('Цена акции', key, ':', price)
 
+    
+
     exampleFile.close()
 
     os.remove('{0} page {1}.html'.format(todayDate, key))
